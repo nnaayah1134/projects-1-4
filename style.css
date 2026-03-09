@@ -1,0 +1,63 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+/* General page spacing */
+/* Page background */
+article img {
+  width: 300px;
+  height: auto;
+}
+body {
+  background: linear-gradient(to bottom, #eef4ff, #ffffff);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header styling */
+header {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+/* Section spacing */
+section {
+  margin-top: 50px;
+}
+
+/* Navbar styling */
+.navbar {
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Card styling */
+.card {
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+/* Card images */
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #4a7cff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #355fd1;
+}
+
+/* Footer */
+footer {
+  margin-top: 60px;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  color: #555;
+}
